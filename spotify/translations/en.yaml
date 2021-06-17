@@ -23,6 +23,11 @@ configuration:
     description: >-
       The type of scale used by the volume slider. Choose between logarithmic (default),
       linear, or fixed.
+  create_entity:
+    name: Create entity
+    description: >-
+      Create an entity that exposes the status of `librespot`. WARNING: this is not
+      officially supported by Home Assistant and might stop working at any time.
   username:
     name: Spotify username
     description: >-

@@ -20,6 +20,11 @@ options+=(--initial-volume $(bashio::config 'initial_volume'))
 # Volume scaling
 options+=(--volume-ctrl $(bashio::config 'volume_scaling'))
 
+# Expose entity
+if bashio::config.has_value 'create_entity' && bashio::config 'create_entity'; then
+  options+=(--onevent "sh /usr/local/bin/ha.sh")
+fi
+
 # Device name
 name=$(bashio::config 'name')
 options+=(--name "${name}")

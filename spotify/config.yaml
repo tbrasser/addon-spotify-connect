@@ -9,6 +9,7 @@ arch:
   - amd64
   - armv7
   - i386
+homeassistant_api: true
 host_network: true
 image: giannello/addon-spotify-connect-{arch}
 audio: true
@@ -23,5 +24,6 @@ schema:
   bitrate: list(96|160|320)
   initial_volume: int(0,100)
   volume_scaling: list(linear|log|fixed)
+  create_entity: bool?
   username: str?
   password: password?

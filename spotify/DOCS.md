@@ -82,6 +82,11 @@ Use the following algorithm for volume control.
 
 Valid values: linear, log (default), fixed
 
+### Option: `create_entity`
+
+Create an entity that exposes the status of `librespot` to Home Assistant.
+WARNING: this is not officially supported by Home Assistant and might break at any time.
+
 ### Option: `username`
 
 **IMPORTANT**: _This requires a Spotify Premium account!_

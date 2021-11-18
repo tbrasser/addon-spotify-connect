@@ -10,6 +10,7 @@ arch:
   - armv7
   - i386
 host_network: true
+image: giannello/addon-spotify-connect-{arch}
 audio: true
 options:
   name: Home Assistant

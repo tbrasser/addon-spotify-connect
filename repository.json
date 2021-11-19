@@ -1,5 +1,5 @@
 {
-  "name": "Spotify add-on repository",
-  "url": "https://github.com/giannello/addon-spotify-connect",
-  "maintainer": "Giuseppe Iannello <giuseppe.iannello@brokenloop.net>"
+  "name": "Spotify Connect pipe output add-on repository",
+  "url": "https://github.com/tbrasser/addon-spotify-connect",
+  "maintainer": "Thomas Brasser <thomas@brasser.family>"
 }
